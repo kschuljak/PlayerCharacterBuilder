@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T20:04:04.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mQNBRMbR7PY7RNymgHfU" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-29T20:09:28.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iFCqnRPGZTw6INuqjP_Q" version="20.6.0" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1422" dy="1886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1219,28 +1219,28 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-1" value="WEAPONS TABLE (p149)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="80" y="40" width="400" height="206" as="geometry" />
+          <mxGeometry x="80" y="320" width="400" height="206" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-2" value="name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
           <mxGeometry y="26" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZAhp_WmkYAZE-ClSbl00-3" value="type ((string) simple melee, simple ranged, martial melee, martial ranged)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
+        <mxCell id="ZAhp_WmkYAZE-ClSbl00-3" value="type (string) simple melee, simple ranged, martial melee, martial ranged" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
           <mxGeometry y="56" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZAhp_WmkYAZE-ClSbl00-4" value="cost ((int) cp, sp, gp)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
+        <mxCell id="ZAhp_WmkYAZE-ClSbl00-4" value="cost (int) cp, sp, gp" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
           <mxGeometry y="86" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-5" value="damage ((int, int) dice and (string) type)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
           <mxGeometry y="116" width="400" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZAhp_WmkYAZE-ClSbl00-6" value="weight (decimal lbs)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
+        <mxCell id="ZAhp_WmkYAZE-ClSbl00-6" value="weight (decimal) lbs" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
           <mxGeometry y="146" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-7" value="properties (string list)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-1">
           <mxGeometry y="176" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-8" value="ADVENTURING GEAR TABLE (p150)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="80" y="280" width="400" height="176" as="geometry" />
+          <mxGeometry x="80" y="565" width="400" height="176" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-9" value="name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-8">
           <mxGeometry y="26" width="400" height="30" as="geometry" />
@@ -1258,7 +1258,7 @@
           <mxGeometry y="146" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-15" value="TOOLS TABLE (p154)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="80" y="480" width="400" height="146" as="geometry" />
+          <mxGeometry x="80" y="780" width="400" height="146" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-16" value="name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-15">
           <mxGeometry y="26" width="400" height="30" as="geometry" />
@@ -1273,7 +1273,7 @@
           <mxGeometry y="116" width="400" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-21" value="TRINKETS TABLE (p160-161)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="80" y="640" width="400" height="86" as="geometry" />
+          <mxGeometry x="80" y="970" width="400" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-22" value="id (int 1 - 100)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-21">
           <mxGeometry y="26" width="400" height="30" as="geometry" />
@@ -1322,6 +1322,30 @@
         </mxCell>
         <mxCell id="ZAhp_WmkYAZE-ClSbl00-44" value="ability score bonus (int)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="ZAhp_WmkYAZE-ClSbl00-40">
           <mxGeometry y="86" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCRsgYuuEepTiisBC9Bg-1" value="ARMOR TABLE (p145)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="400" height="236" as="geometry" />
+        </mxCell>
+        <mxCell id="UCRsgYuuEepTiisBC9Bg-2" value="name" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="UCRsgYuuEepTiisBC9Bg-1">
+          <mxGeometry y="26" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCRsgYuuEepTiisBC9Bg-3" value="type (string) light, medium, heavy, shield" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="UCRsgYuuEepTiisBC9Bg-1">
+          <mxGeometry y="56" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCRsgYuuEepTiisBC9Bg-4" value="cost (int) gp" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="UCRsgYuuEepTiisBC9Bg-1">
+          <mxGeometry y="86" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCRsgYuuEepTiisBC9Bg-5" value="armor class (int  + dex modifier)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="UCRsgYuuEepTiisBC9Bg-1">
+          <mxGeometry y="116" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCRsgYuuEepTiisBC9Bg-6" value="strength requirement (int)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="UCRsgYuuEepTiisBC9Bg-1">
+          <mxGeometry y="146" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCRsgYuuEepTiisBC9Bg-7" value="stealth disadvantage (boolean)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="UCRsgYuuEepTiisBC9Bg-1">
+          <mxGeometry y="176" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UCRsgYuuEepTiisBC9Bg-8" value="weight (int) lbs" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="UCRsgYuuEepTiisBC9Bg-1">
+          <mxGeometry y="206" width="400" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
